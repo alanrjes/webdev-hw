@@ -45,7 +45,6 @@ a:hover {
 }
 
 /* Code for exercise 02-cards */
-
 .card {
   width: 400px;
   padding: 25px;
@@ -75,5 +74,33 @@ img {
 }
 
 /* Code for exercise 03-table */
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:hover {
+  background-color: var(--orange);
+}
+
+th {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px;
+  width: 20%;
+}
+
+td {
+  border: 1px solid var(--black);
+  padding: 20px;
+}
+
+td:first-child {
+  background-color: var(--violetred);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+}
 
 /* Code for exercise 04-form */
