@@ -35,6 +35,7 @@ nav {
 
 a {
   padding: 25px;
+  background-color: var(--black);
   color: var(--white);
   text-decoration: none;
 }
@@ -44,6 +45,34 @@ a:hover {
 }
 
 /* Code for exercise 02-cards */
+
+.card {
+  width: 400px;
+  padding: 25px;
+  border: 1px solid var(--black);
+  float: left;
+  margin: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: inherit;
+  border-style: none;
+}
+
+button:hover {
+  background-color: var(--violetred);
+}
+
+img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Code for exercise 03-table */
 
