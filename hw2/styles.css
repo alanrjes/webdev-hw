@@ -128,10 +128,6 @@ td:first-child {
   margin-bottom: 20px;
 }
 
-label {
-  font-weight: inherit;
-}
-
 input {
   float: right;
   width: 200px;
@@ -144,6 +140,7 @@ input[type="radio"] {
 
 .radio-options {
   font-weight: normal;
+  margin-top: -20px;
 }
 
 .submit-button {
