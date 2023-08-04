@@ -2,7 +2,7 @@
 const pic = document.createElement("img");
 pic.src = "../images/alan.jpg";
 pic.width = "200";
-pic.alt = "Alan's profile picture";
+pic.alt = "a picture of Alan's face";
 // centered
 pic.style.display = "block";
 pic.style.margin = "auto";

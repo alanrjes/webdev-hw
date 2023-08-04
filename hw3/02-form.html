@@ -38,8 +38,8 @@
             <input type="date" id="birthdate" class="input-box" />
           </div>
           <div class="form-item">
-            <p>Preferred Pronouns:</p>
-            <div class="radio-options">
+            <fieldset class="radio-options">
+              <legend>Preferred Pronouns:</legend>
               <input type="radio" id="she" name="pronouns" />
               <label for="she">She/her</label>
               <br />
@@ -51,8 +51,9 @@
               <br />
               <input type="radio" id="none" name="pronouns" />
               <label for="none">Prefer not to say</label>
-            </div>
+            </fieldset>
           </div>
+          <p id="submission-info" class="info"></p>
           <div class="form-item">
             <button type="submit" class="submit-button">Submit</button>
             <button type="reset" class="reset-button">Reset</button>

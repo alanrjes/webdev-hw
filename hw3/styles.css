@@ -37,6 +37,17 @@ form {
 
 /* Code for exercise 02-form */
 
+legend {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1em;
+}
+
 /* Code for exercise 03-starships */
 
 .btn-group {
